@@ -1,0 +1,115 @@
+# Terminal (alacritty)
+super + Return
+	alacritty -e fish
+
+# text editor 
+super + shift + t 
+	alacritty -e vim
+
+# rofi launchers
+super + d 
+	~/.config/herbstluftwm/scripts/./launcher.sh 
+
+super + shift + e 
+	~/.config/herbstluftwm/scripts/./powermenu.sh 
+
+super + shift + n 
+	exec network.sh 
+
+super + t 
+	exec time.sh 
+
+super + shift + s 
+	exec screenshot.sh
+
+#general stuff
+super + shift + w 
+	firefox-bin 
+
+super + shift + f
+	nautilus
+
+super + ctrl + s
+	scrot
+
+XF86AudioRaiseVolume 
+	volumectl up
+
+XF86AudioLowerVolume
+	volumectl down
+
+XF86MonBrightnessUp
+	xbacklight +10
+
+XF86MonBrightnessDown
+	xbacklight -10
+
+
+# herbstluftwm 
+super + shift + q
+	herbstclient quit
+
+super + shift + r 
+	herbstclient reload
+
+super + c 
+	herbstclient close 
+
+super + h 
+	herbstclient focus left
+
+super + l 
+	herbstclient focus right
+
+super + k 
+	herbstclient focus up
+
+super + j
+	herbstclient focus down 
+
+super + shift + h 
+	herbstclient shift left 
+
+super + shift + l 
+	herbstclient shift right 
+
+super + shift + k 
+	herbstclient shift up 
+
+super + shift + j
+	herbstclient shift down 
+
+super + ctrl + j 
+	herbstclient split bottom 0.5
+
+super + ctrl + l 
+	herbstclient split right 0.5 
+
+super + alt + h 
+	herbstclient resize left +$resizestep
+
+super + alt + l 
+	herbstclient resize right +$resizestep
+
+super + alt + k 
+	herbstclient resize up +$resizestep
+
+super + alt + j
+	herbstclient  resize down +$resizestep
+
+super + shift + c 
+	herbstclient remove 
+
+super + s 
+	herbstclient floating toggle
+
+super + f 
+	herbstclient fullscreen toggle 
+
+super + shift + g 
+	herbstclient set window_gap 12
+
+super + g 
+	herbstclient set window_gap 0
+
+

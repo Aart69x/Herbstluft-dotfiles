@@ -1,0 +1,72 @@
+## Set environment variables
+env:
+  TERM: alacritty
+
+## Terminal window settings
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+
+  padding:
+    x: 8
+    y: 8
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+## scrolling
+  history: 10000
+  multiplier: 3
+
+## Background opacity
+background_opacity: 0.68
+
+## Cursor
+cursor:
+  style: 'Beam'
+
+## Live config reload
+live_config_reload: true
+# BEGIN ACE
+colors:
+  primary:
+    background: '#0c1012'
+    foreground: '#ccc0aa'
+  cursor:
+    text:       '#212324'
+    cursor:     '#dbd2cd'
+  normal:
+    black:      '#212324'
+    red:        '#847A74'
+    green:      '#90837B'
+    yellow:     '#9A8C84'
+    blue:       '#A99890'
+    magenta:    '#B6A59B'
+    cyan:       '#BDACA2'
+    white:      '#dbd2cd'
+  bright:
+    black:      '#99938f'
+    red:        '#847A74'
+    green:      '#90837B'
+    yellow:     '#9A8C84'
+    blue:       '#A99890'
+    magenta:    '#B6A59B'
+    cyan:       '#BDACA2'
+    white:      '#dbd2cd'
+# END ACE    
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    #
+    #
+    #
+    #
+    #
+    #
+    family: 'Iosevka custom'
+    style: SemiBold
+    #########################################
